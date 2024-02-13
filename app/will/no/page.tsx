@@ -2,9 +2,7 @@ import { BackgroundGradientAnimation } from "@/components/ui/background-gradient
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Home() {
-  const line1 = `"Roses are red, violets are blue,
-    Though my heart's heavy, I still wish you true.
-    "`;
+  const line1 = `"Gamungkin seorang lala gamau"`;
   return (
     <BackgroundGradientAnimation>
       <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
